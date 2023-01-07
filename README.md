@@ -1,1 +1,3 @@
 # Round-Robin-Scheduling
+
+The Round-robin (RR) scheduling algorithm is designed especially for timesharing systems.  It is similar to FCFS scheduling except that is a purely preemptive algorithm.  A small unit of time, called a time quantum or time slice, is defined. A time quantum is generally from 10 to 100 milliseconds  The ready queue is treated as a circular queue. The ready queue is treated like a FIFO queue of processes. New processes are added to the tail of the ready queue. The CPU picks the first process from the ready queue, sets a timer to interrupt after 1-time quantum, and dispatches the process.
